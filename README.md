@@ -41,7 +41,7 @@ https://portfolio20.z5.web.core.windows.net/
 
 This is the final deployed portfolio website.
 
-![Portfolio Website](screenshots/01-portfolio-preview.png)
+![Portfolio Website](Screenshot1.png)
 
 ---
 
@@ -59,7 +59,6 @@ Created a Storage Account that will host the static website.
 - Redundancy: LRS
 - Primary Service: Azure Blob Storage
 
-![Create Storage Account](screenshots/02-create-storage-account.png)
 
 ---
 
@@ -69,7 +68,6 @@ Azure successfully created the Storage Account and deployment resources.
 
 This confirms that all resources were provisioned successfully.
 
-![Deployment Successful](screenshots/03-deployment-success.png)
 
 ---
 
@@ -81,8 +79,6 @@ Enabled Azure Static Website Hosting and configured:
 - Error Document: Default
 
 Azure automatically generated the public website endpoint.
-
-![Enable Static Website](screenshots/04-enable-static-website.png)
 
 ---
 
@@ -98,23 +94,6 @@ The uploaded files include:
 - Portfolio images
 
 Azure serves these files directly from Blob Storage.
-
-![Upload Files](screenshots/05-upload-files.png)
-
----
-
-# Repository Structure
-
-```
-Azure-Portfolio/
-│
-├── index.html
-├── style.css
-├── script.js
-├── images/
-├── screenshots/
-└── README.md
-```
 
 ---
 
